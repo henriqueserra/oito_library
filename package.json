@@ -1,0 +1,30 @@
+{
+  "name": "oito_library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && NODE_ENV=development node ./build/teste.js",
+    "start": "NODE_ENV=production node ./build/index.js",
+    "test": "tsc && NODE_ENV=production node ./build/teste.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriqueserra/oito_library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriqueserra/oito_library/issues"
+  },
+  "homepage": "https://github.com/henriqueserra/oito_library#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
